@@ -20,7 +20,10 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
+
+      - name: Fix Jest permissions
+        run: chmod +x node_modules/.bin/jest
 
       - name: Run Automation tests
         run: npm test
