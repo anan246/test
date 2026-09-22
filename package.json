@@ -1,0 +1,16 @@
+{
+  "name": "testings-basics",
+  "version": "1.0.0",
+  
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchman=false --json --outputFile=results.json"
+  },
+  "keywords":[],
+  "author": "",
+  "license": "ISC",
+  "description":"",
+  "devDependencies": {
+    "jest": "^30.5.1"
+  }
+}
